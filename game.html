@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Njokis Casino - Craps Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Njokis Casino</h1>
+    </header>
+    <main>
+        <button id="playButton">Roll the Dice</button>
+        <p id="output"></p>
+        <img id="diceImage1" src="dice-1.png" alt="Die 1">
+        <img id="diceImage2" src="dice-2..png" alt="Die 2">
+    </main>
+    <footer>
+        <p>Instructions: Roll the dice. If you get a 7 or 11, you lose.
+             If you get doubles (e.g., 2-2, 4-4), you win. Otherwise, you push!</p>
+    </footer>
+    <audio id="roll-sound" src="roll-sound.mp3"></audio>
+    <script src="code.js"></script>
+</body>
+<style>body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #8c3a3a;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+</style>
+
+</html>
+
+
